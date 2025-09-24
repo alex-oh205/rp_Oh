@@ -6,7 +6,7 @@
 }
 
 .about-team{
-    color:rgb(82, 81, 81)
+    color: #3BBA9C;
 }
 
 .authors{
@@ -14,11 +14,11 @@
 }
 
 .body{
-    background-color: rgb(90, 92, 92);
+    background-color: #707793;
 }
 
 .footer{
-    background-color: #023E8A;
+    background-color: #2E3047;
 }
 
 .icon-white{            /* Arrow icon at bottom of page */
@@ -26,7 +26,7 @@
 }
 
 .nb-background-color{   /* navbar background color */
-    background-color: #023E8A;
+    background-color: #2E3047;
 }
 
 .nbMenuItem{               /* navbar link text properties */
@@ -53,7 +53,8 @@
 }
 
 .showcase{
-    background-color: #8fa3ab; /*#0096c7*/
+    color: #3BBA9C;
+    background-color: #43455C;
 }
 
 /* ----------------- ID CSS ----------------- */
