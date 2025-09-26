@@ -20,7 +20,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark nb-background-color">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <img src="img/droplet.png" alt="Water Logo" class="d-inline-block align-text-top w-50">
+                    <img src="img/cube-logo.png" alt="Cube Logo" class="d-inline-block align-text-top logo">
                 </a>
 
                 <!-- Hamburger Menu Button-->
@@ -59,7 +59,7 @@
 
                 <table class="table table-hover text-center table-light table-bordered border-dark-subtle">
                     <thead>
-                        <tr class="table-primary">
+                        <tr class="table-primary procedure-head">
                             <th><h3>Step</h3></th>
                             <th><h3>Description</h3></th>
                             <th><h3>Image</h3></th>
@@ -70,46 +70,60 @@
                             <th scope="row" class="table-secondary">
                                 <h3>1</h3>
                             </th> <!-- scope="row" specifies a row header cell -->
-                            <td><h3 class="howTo">Start Python Flask server.</h3></td>
-                            <td class="text-center"><img src="img/python-logo.png" alt="Python Logo"></td>
+                            <td><h3 class="howTo">Set up sample holder with two heaters, copper tape, and thermocouples.</h3></td>
+                            <td class="text-center"><img src="img/setup1.png" alt="Setup 1"></td>
                         </tr> <!-- End 1st row -->
                         <tr class="align-middle"> <!-- 2nd row -->
                             <th scope="row" class="table-secondary">
-                                <h3>1</h3>
+                                <h3>2</h3>
                             </th> <!-- scope="row" specifies a row header cell -->
-                            <td><h3 class="howTo">Power circuit on. Sr-04/05 transmits data to Nano IoT</h3></td>
-                            <td class="text-center"><img src="img/range-finder-tp.png" alt="SR04 Range Finder"></td>
+                            <td><h3 class="howTo">Connect thermocouple amplifiers for temperature and voltage measurements to the thermocouples and an Arduino.</h3></td>
+                            <td class="text-center"><img src="img/setup2.png" alt="Setup 2"></td>
                         </tr> <!-- End 2nd row -->
                         <tr class="align-middle"> <!-- 3rd row -->
                             <th scope="row" class="table-secondary">
-                                <h3>1</h3>
+                                <h3>3</h3>
                             </th> <!-- scope="row" specifies a row header cell -->
-                            <td><h3 class="howTo">Nano IoT connects to PC via Wi-Fi and sends data to Arduino</h3></td>
-                            <td class="text-center"><img src="img/nano33-iot3.png" alt="Nano 33 IoT"></td>
+                            <td><h3 class="howTo">Configure PID heater control with N-MOSFET transistors and a power supply using Arduino PWM outputs.</h3></td>
+                            <td class="text-center"><img src="img/setup3.png" alt="Setup 3"></td>
                         </tr> <!-- End 3rd row -->
                         <tr class="align-middle"> <!-- 4th row -->
                             <th scope="row" class="table-secondary">
-                                <h3>1</h3>
+                                <h3>4</h3>
                             </th> <!-- scope="row" specifies a row header cell -->
-                            <td><h3 class="howTo">Arduino and Flask server communicate via HTTP request protocol.</h3></td>
-                            <td class="text-center"><img src="img/arduino-logo.png" alt="Arduino Logo"></td>
+                            <td><h3 class="howTo">Assemble resistance measurement circuit using copper tape on sample holder, resistors, and Arduino analog pins.</h3></td>
+                            <td class="text-center"><img src="img/setup4.png" alt="Setup 4"></td>
                         </tr> <!-- End 4th row -->
                         <tr class="align-middle"> <!-- 5th row -->
                             <th scope="row" class="table-secondary">
-                                <h3>1</h3>
+                                <h3>5</h3>
                             </th> <!-- scope="row" specifies a row header cell -->
-                            <td><h3 class="howTo">Flask connects to Firebase and sends data for storage.</h3></td>
-                            <td class="text-center"><img src="img/firebase-logo.png" alt="Firebase Logo"></td>
+                            <td><h3 class="howTo">Place thin film samples of bismuth indium selenide face down on sample holder and apply weight.</h3></td>
+                            <td class="text-center"><img src="img/setup5.png" alt="Setup 5"></td>
                         </tr> <!-- End 5th row -->
+                        <tr class="align-middle"> <!-- 6th row -->
+                            <th scope="row" class="table-secondary">
+                                <h3>6</h3>
+                            </th> <!-- scope="row" specifies a row header cell -->
+                            <td><h3 class="howTo">Run automated LabVIEW program to read temperature and voltage measurements from Arduino and calculate Seebeck coefficient and resistance.</h3></td>
+                            <td class="text-center"><img src="img/setup6.png" alt="Setup 6"></td>
+                        </tr> <!-- End 6th row -->
+                        <tr class="align-middle"> <!-- 7th row -->
+                            <th scope="row" class="table-secondary">
+                                <h3>7</h3>
+                            </th> <!-- scope="row" specifies a row header cell -->
+                            <td><h3 class="howTo">Rotate sample 90 degrees and repeat measurements. Average results for final analysis.</h3></td>
+                            <td class="text-center"><img src="img/setup7.png" alt="Setup 7"></td>
+                        </tr> <!-- End 7th row -->
                     </tbody>
                 </table>
             </div>
         </section>
 
         <!-- Footer (require a Bootstrap icon)-->
-        <footer class="p-5 footer text-light text-center position-relative">
+        <footer class="p-5 footer text-center position-relative">
             <div class="container">
-                <p class="lead">Copyright &copy; SE 2025 Research Project</p>
+                <p class="lead">Copyright &copy; Alex Oh 2025 Research Project</p>
                 <a href="#" class="position-absolute bottom-0 end-0 p-5">
                     <i class="bi bi-arrow-up-circle h2 icon-white"></i>
                 </a>
