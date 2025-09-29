@@ -17,7 +17,7 @@
     <div class="container-lg">
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark nb-background-color">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark py-0 nb-background-color">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
                     <img src="img/cube-logo.png" alt="Cube Logo" class="d-inline-block align-text-top logo">
@@ -45,6 +45,35 @@
                 </div>
             </div>
         </nav>
+
+        <!-- Results and Discussion -->
+        <section class="overview p-2 text-left">
+            <div class="container">
+                <br>
+                <div class="text-center">
+                    <h1>Results</h1>
+                </div>
+
+                <hr><br>    <!-- Horizontal line with line break -->
+
+                <div class="row"> <!-- Row 1-->
+                    <div class="col-12 p-3 text-center">
+                        <figure class="mx-auto" id="results-graph">
+                            <img class="img-fluid" src="img/results-graph.png" alt="Results Graph">
+                            <figcaption class="caption"><strong>Figure 1:</strong> Graphs showing the relationship between indium content (x) and thermoelectric properties of (Bi₁₋ₓInₓ)₂Se₃ films.</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="row"> <!-- Row 2-->
+                    <div class="col-12 p-3">
+                        <h1 class="ovPadLeft">Discussion</h1>
+                        <p class="lead overview-font ovPadLeft" id="">As indium content (x) increases in 30 nm thick (Bi₁₋ₓInₓ)₂Se₃ films, the Seebeck coefficient increases in magnitude (becomes more negative), showing a strong and statistically significant negative correlation with x. However, this increase is relatively small. At the same time, sheet resistance increases sharply, causing conductivity to decrease significantly. As a result, the thermoelectric power factor (S²σ) decreases with x, also with strong statistical significance. <br><br>
+
+While the Seebeck coefficient alone improved, the overall thermoelectric performance declined due to reduced conductivity. This disproves the initial hypothesis that adding indium would enhance thermoelectric performance and supports the idea that topological surface states play a beneficial role, aligning with theoretical predictions but contradicting prior results by other studies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Footer (require a Bootstrap icon)-->
         <footer class="p-5 footer text-center position-relative">
