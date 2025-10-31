@@ -103,13 +103,22 @@ td img {
     max-width: 1000px;
 }
 
+#chart-wrapper{
+    margin: auto;
+    padding: 10px;
+    min-height: 400px;
+    background-color: whitesmoke !important;
+    justify-content: center;
+    align-items: center;  
+}
+
 /* -----------------Underline Animation CSS -----------------*/
 .hover-underline-animation {
     display: inline-block;
     position: relative;
     /*color: #0087ca;*/
     color: #3BBA9C;
-    transition: background-color 0.35s ease-out;
+    transition: color 0.35s ease-out, background-color 0.35s ease-out;
   }
 
   .hover-underline-animation:hover {
